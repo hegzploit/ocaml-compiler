@@ -3,6 +3,7 @@ clean:
 	rm -f *.o
 	rm -f *.cm*
 	rm -f *.asm
+	rm -f stackml
 
 stackml: stackml.o
 	ld stackml.o -o stackml
